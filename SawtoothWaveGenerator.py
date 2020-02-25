@@ -5,7 +5,11 @@ import matplotlib.pyplot as plt
 """
 References
 ----------
-robjohn (https://math.stackexchange.com/users/13854/robjohn), Equation of a "tilted" sine, URL (version: 2017-09-20): https://math.stackexchange.com/q/2431811
+* robjohn (https://math.stackexchange.com/users/13854/robjohn), Equation of a "tilted" sine, URL (version: 2017-09-20): https://math.stackexchange.com/q/2431811
+* Specifying Colors — Matplotlib 3.1.3 documentation
+https://matplotlib.org/tutorials/colors/colors.html
+* Choosing Colormaps in Matplotlib — Matplotlib 3.1.3 documentation
+https://matplotlib.org/3.1.3/tutorials/colors/colormaps.html
 """
 def sawtooth_wave(n, x):
     y = np.zeros_like(x)
