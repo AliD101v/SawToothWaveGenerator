@@ -30,8 +30,8 @@ colors = cmap(colors)
 x = np.linspace(0, np.pi * periods, points)
 
 # Create the figure
-plt.figure()
+plt.figure(figsize=(17,8.5))
 for n in range(1, lines + 1):
     y = sawtooth_wave(n, x)
     plt.plot(x, y, c=colors[n-1,:])
-plt.show()
+plt.savefig('SawToothWave.png', bbox_inches='tight')
